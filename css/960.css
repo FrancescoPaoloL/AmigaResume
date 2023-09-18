@@ -1,0 +1,79 @@
+/* Containers */
+.container_12,
+.container_16 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+/* Grid Elements */
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10,
+.grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Push and Pull Elements */
+.push_1, .pull_1, .push_2, .pull_2, .push_3, .pull_3, .push_4, .pull_4, .push_5, .pull_5,
+.push_6, .pull_6, .push_7, .pull_7, .push_8, .pull_8, .push_9, .pull_9, .push_10, .pull_10,
+.push_11, .pull_11, .push_12, .pull_12, .push_13, .pull_13, .push_14, .pull_14, .push_15, .pull_15 {
+    position: relative;
+}
+
+/* Grid Widths */
+.container_12 .grid_3, .container_16 .grid_4 {
+    width: 220px;
+}
+.container_12 .grid_6, .container_16 .grid_8 {
+    width: 460px;
+}
+.container_12 .grid_9, .container_16 .grid_12 {
+    width: 700px;
+}
+.container_12 .grid_12, .container_16 .grid_16 {
+    width: 940px;
+}
+
+/* Alpha and Omega */
+.alpha {
+    margin-left: 0;
+}
+.omega {
+    margin-right: 0;
+}
+
+/* Prefix and Suffix Elements */
+/* (You can format these similarly to the grid elements) */
+
+/* Push and Pull Elements */
+/* (You can format these similarly to the grid elements) */
+
+/* Clearfix */
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+/* Clearfix for Older Browsers */
+.clearfix:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+/* Clearfix for IE6 and IE7 */
+* html .clearfix,
+*:first-child+html .clearfix {
+    zoom: 1;
+}
