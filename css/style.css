@@ -34,7 +34,6 @@ html {
 }
 
 h1 {
-	text-transform: uppercase;
 }
 
 .post_body h1 {
@@ -123,14 +122,17 @@ ul {
 #titlebar {
 	display: block;
 	background: url("/images/title_bar.png") no-repeat #00519E;
-	text-transform: uppercase;
 	text-decoration:none;
+}
+
+.titlebar-random-number {
+	margin-left: 20px;
+    color: #d77f1e;
 }
 
 #titlebar h1 {
 	display: inline;
 	margin-bottom: 0;
-	text-transform: uppercase;
 }
 
 #titlebar a {
@@ -295,7 +297,6 @@ ul {
 	padding: 0 3px 0 0;
 	color: #00519E;
 	background: url("/images/side_bar_header.png") no-repeat;
-	text-transform: uppercase;
 	text-indent: 30px;
 }
 
@@ -309,7 +310,6 @@ ul {
 
 #sidebar h4 {
 	color: #d77f1e;
-	text-transform: uppercase;
 	margin-bottom: 10px;
 }
 
@@ -329,7 +329,6 @@ ul {
 #nav h2 {
 	color: #d77f1e;
 	margin-bottom: 5px;
-	text-transform: uppercase;
 }
 
 .widget_box{
