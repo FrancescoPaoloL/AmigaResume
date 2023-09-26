@@ -18,6 +18,18 @@ Author URI: http://www.lizdizon.com/
 
 }
 
+.container {
+	display: flex;
+    justify-content: space-between;
+}
+
+.right-content {
+    text-align: right;
+}
+
+ .left-content {
+    text-align: left;
+}
 
 html {
 	margin-top: 0 !important;
